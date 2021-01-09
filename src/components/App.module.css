@@ -1,0 +1,34 @@
+.title {
+  text-align: left;
+  color: #3645ab;
+  margin: 20px 0;
+}
+
+.appear {
+  transform: translateX(-200%);
+  opacity: 0;
+}
+.appearActive {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 500ms linear;
+}
+
+.enter {
+  transform: translateX(-200%);
+  opacity: 0;
+}
+.enterActive {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 500ms linear;
+}
+.exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+.exitActive {
+  transform: translateX(-200%);
+  opacity: 0;
+  transition: all 500ms linear;
+}

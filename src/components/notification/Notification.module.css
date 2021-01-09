@@ -1,0 +1,13 @@
+.container {
+  width: 300px;
+  height: 70px;
+  background-color: rgb(245, 69, 69);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.text {
+  font-size: 20px;
+  color: white;
+  padding: 13px;
+}
